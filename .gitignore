@@ -1,9 +1,8 @@
 *
-!.gitignore
+!.config/
 .config/*
 !.config/nvim/
-
+!.config/nvim/**
 !.zshrc
-
 !.tmux.conf
-
+!README.md
