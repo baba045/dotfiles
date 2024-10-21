@@ -34,6 +34,7 @@ return {
 				"prismals",
 				"pyright",
 				"clangd",
+				"gopls",
 			},
 		})
 		mason_tool_installer.setup({
