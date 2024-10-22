@@ -33,14 +33,21 @@ HISTSIZE=10000
 SAVEHIST=10000
 setopt appendhistory
 
-# nvim setup
-alias vim=nvim
-alias vi=nvim
 
 # Set-up icons for files/folders in terminal using eza
 alias ls='eza -a --icons'
 alias ll='eza -al --icons'
 alias lt='eza -a --tree --level=1 --icons'
+
+# some useful alias
+alias v=nvim
+alias c='clear'
+alias h='history'
+alias e='exit'
+alias ..='cd ..'
+alias ...='cd ../..'
+alias get='sudo dnf install'
+alias U='sudo dnf update && sudo dnf upgrade'
 
 # fnm
 FNM_PATH="/home/baba/.local/share/fnm"
