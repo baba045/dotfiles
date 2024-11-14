@@ -48,6 +48,8 @@ alias ..='cd ..'
 alias ...='cd ../..'
 alias get='sudo dnf install'
 alias U='sudo dnf update && sudo dnf upgrade'
+alias H='~/Downloads/HTTPie-2024.1.2.AppImage'
+alias qb='./Downloads/qbittorrent-4.6.5_x86_64.AppImage'
 
 # fnm
 FNM_PATH="/home/baba/.local/share/fnm"
@@ -64,3 +66,10 @@ case ":$PATH:" in
   *) export PATH="$PNPM_HOME:$PATH" ;;
 esac
 # pnpm end
+
+export PATH=$PATH:$(go env GOPATH)/bin
+
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+. "/home/baba/.deno/env"

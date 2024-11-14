@@ -38,6 +38,12 @@ return {
 	},
 
 	-- {
+	-- 	"ellisonleao/gruvbox.nvim",
+	-- 	priority = 1000,
+	-- 	config = true,
+	-- },
+
+	-- {
 	-- 	"whatyouhide/vim-gotham",
 	-- config = function()
 	-- 	vim.cmd.colorscheme("gotham")
